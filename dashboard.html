@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Youth Education</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="bg-primary text-white p-3">
+        <div class="container d-flex justify-content-between align-items-center">
+            <h1 class="logo">Dashboard</h1>
+            <nav>
+                <ul class="nav">
+                    <li class="nav-item"><a href="index.html" class="nav-link text-white">Home</a></li>
+                    <li class="nav-item"><a href="courses.html" class="nav-link text-white">Courses</a></li>
+                    <li class="nav-item"><a href="#resources" class="nav-link text-white">Resources</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link text-white">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Dashboard Overview -->
+    <section class="dashboard-overview bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Welcome, [User Name]</h2>
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <div class="p-3 bg-white shadow rounded">
+                        <h4>Enrolled Courses</h4>
+                        <p><strong>5</strong> Active Courses</p>
+                        <a href="courses.html" class="btn btn-primary btn-sm">View Courses</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="p-3 bg-white shadow rounded">
+                        <h4>Progress</h4>
+                        <p><strong>75%</strong> Completed</p>
+                        <a href="#progress" class="btn btn-primary btn-sm">View Progress</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="p-3 bg-white shadow rounded">
+                        <h4>Achievements</h4>
+                        <p><strong>3</strong> Certificates Earned</p>
+                        <a href="#achievements" class="btn btn-primary btn-sm">View Achievements</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Enrolled Courses -->
+    <section class="enrolled-courses py-5">
+        <div class="container">
+            <h3 class="mb-4">Your Enrolled Courses</h3>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <!-- Course Card -->
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Course Thumbnail">
+                        <div class="card-body">
+                            <h5 class="card-title">Introduction to Science</h5>
+                            <p class="card-text">Progress: <strong>60%</strong></p>
+                            <a href="#" class="btn btn-primary btn-sm">Continue</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Course Card -->
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Course Thumbnail">
+                        <div class="card-body">
+                            <h5 class="card-title">Creative Writing</h5>
+                            <p class="card-text">Progress: <strong>80%</strong></p>
+                            <a href="#" class="btn btn-primary btn-sm">Continue</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Course Card -->
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Course Thumbnail">
+                        <div class="card-body">
+                            <h5 class="card-title">Advanced Mathematics</h5>
+                            <p class="card-text">Progress: <strong>45%</strong></p>
+                            <a href="#" class="btn btn-primary btn-sm">Continue</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements -->
+    <section class="achievements bg-light py-5">
+        <div class="container">
+            <h3 class="mb-4">Your Achievements</h3>
+            <div class="row">
+                <div class="col-md-4 text-center">
+                    <div class="p-3 bg-white shadow rounded">
+                        <h5>Certificate: Science Basics</h5>
+                        <p>Awarded on: 01 Jan 2025</p>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="p-3 bg-white shadow rounded">
+                        <h5>Badge: Creative Thinker</h5>
+                        <p>Awarded on: 10 Dec 2024</p>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="p-3 bg-white shadow rounded">
+                        <h5>Certificate: Writing Excellence</h5>
+                        <p>Awarded on: 15 Nov 2024</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>© 2025 Youth Education. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
